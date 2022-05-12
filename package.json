@@ -1,0 +1,25 @@
+{
+  "name": "react-testing-booking",
+  "version": "1.0.0",
+  "description": "React Testing Booking - Egghead",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './src/**/*.spec.js' --compilers js:babel-core/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expect-jsx": "2.1.2",
+    "react": "0.14.3",
+    "react-dom": "0.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.1.4",
+    "babel-preset-es2015": "6.1.4",
+    "babel-preset-react": "6.1.4",
+    "babel-preset-stage-2": "6.1.2",
+    "expect": "1.12.2",
+    "mocha": "2.3.3",
+    "react-addons-test-utils": "0.14.3"
+  }
+}
